@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.resume h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.resume div,
+.resume ul {
+  margin: 10px 0;
+}
+
+.resume h3,
+.resume p,
+.resume span {
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
+}
+
+.resume input {
+  padding: 5px;
+  font-size: 1rem;
+}
